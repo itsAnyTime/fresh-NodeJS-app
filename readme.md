@@ -1,6 +1,6 @@
 # fresh-NodeJS-app with express #
 
-## Running Locally
+## Clone
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
@@ -8,10 +8,11 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cl
 ```
 $ git clone  # or clone your own fork
 $ in terminal/console: cd fresh-NodeJS-app
-
+```
 
 ## Deploying to Heroku
 
+```
 $ heroku create // or add a name: heroku create fresh-nodejs-2019
 (Name must start with a letter, end with a letter or digit and can only contain lowercase letters, digits, and dashes.)
 $ git remote -v
@@ -27,8 +28,10 @@ or
 
 ## To work local on http://localhost:5000/
 
+```
 $ npm install
 $ heroku local 
+```
 
 
 ## Documentation
